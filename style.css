@@ -1,0 +1,39 @@
+*, body{
+  margin: 0;
+  padding: 0;
+  background: #1E1F25;
+  font-family: 'Karla', sans-serif;
+}
+
+.cont{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.button{
+  background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+  padding: 2px;
+}
+
+.start{
+  color: #cbcbcb;
+  font-size: 20px;
+  text-align: center;
+  background: #000;
+  padding: 18px 22px;
+  font-family: inherit;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover{
+  background: linear-gradient(230deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+}
+
+.start:hover{
+  color: #fff;
+  padding: 22px 24px;
+}
